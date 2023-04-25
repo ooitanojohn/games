@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>スロットゲーム</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="style.css">
+  </head>
+  <body>
+    <div class="slot">
+      <div id="slot-frame">
+        <ul class="reels">
+          <li class="reel" data-val="franky"><img src="img/franky.png"></li>
+          <li class="reel" data-val="luffy"><img src="img/luffy.png"></li>  <!-- index 7 -->
+          <li class="reel" data-val="nami"><img src="img/nami.png"></li>   <!-- index 6 -->
+          <li class="reel" data-val="zoro"><img src="img/zoro.png"></li>   <!-- index 5 -->
+          <li class="reel" data-val="usopp"><img src="img/usopp.png"></li>  <!-- index 4 -->
+          <li class="reel" data-val="sanji"><img src="img/sanji.png"></li>  <!-- index 3 -->
+          <li class="reel" data-val="robin"><img src="img/robin.png"></li>  <!-- index 2 -->
+          <li class="reel" data-val="chopper"><img src="img/chopper.png"></li><!-- index 1 -->
+          <li class="reel" data-val="franky"><img src="img/franky.png"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="luffy"><img src="img/luffy.png"></li>
+        </ul>
+        <ul class="reels">
+          <li class="reel" data-val="sanji"><img src="img/sanji.png"></li>
+          <li class="reel" data-val="robin"><img src="img/robin.png"></li>
+          <li class="reel" data-val="zoro"><img src="img/zoro.png"></li>
+          <li class="reel" data-val="luffy"><img src="img/luffy.png"></li>
+          <li class="reel" data-val="nami"><img src="img/nami.png"></li>
+          <li class="reel" data-val="usopp"><img src="img/usopp.png"></li>
+          <li class="reel" data-val="chopper"><img src="img/chopper.png"></li>
+          <li class="reel" data-val="franky"><img src="img/franky.png"></li>
+          <li class="reel" data-val="sanji"><img src="img/sanji.png"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="robin"><img src="img/robin.png"></li>
+        </ul>
+        <ul class="reels">
+          <li class="reel" data-val="robin"><img src="img/robin.png"></li>
+          <li class="reel" data-val="sanji"><img src="img/sanji.png"></li>
+          <li class="reel" data-val="luffy"><img src="img/luffy.png"></li>
+          <li class="reel" data-val="usopp"><img src="img/usopp.png"></li>
+          <li class="reel" data-val="chopper"><img src="img/chopper.png"></li>
+          <li class="reel" data-val="franky"><img src="img/franky.png"></li>
+          <li class="reel" data-val="nami"><img src="img/nami.png"></li>
+          <li class="reel" data-val="zoro"><img src="img/zoro.png"></li>
+          <li class="reel" data-val="robin"><img src="img/robin.png"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="sanji"><img src="img/sanji.png"></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div id="hit">
+    </div>
+    <div>
+      <button type="button" class="stop-btn" data-val="0" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="1" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="2" disabled="true"></button>
+    </div>
+    <div>
+      <button type="button" id="start-btn">ゲームスタート</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
